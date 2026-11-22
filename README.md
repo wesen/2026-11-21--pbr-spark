@@ -1,5 +1,12 @@
 # Candela (TypeScript, standalone)
 
+> [!WARNING]
+> **Deprecated: this repository is archived and read-only.** Candela now lives in
+> [go-go-golems/jig](https://github.com/go-go-golems/jig), in the directory
+> [`import/candela`](https://github.com/go-go-golems/jig/tree/main/import/candela), merged there with this
+> repository's full history (jig ticket JIG-017). Everything up to this repository's last commit, `e3b799e`
+> (pull requests #1–#3), is in jig. Make changes, issues and pull requests in jig.
+
 A physically based rendering workbench: a fluent, unit-aware JavaScript API for scenes and engines, compiled to a
 progressive path tracer that runs on **WebGPU** (compute) or **WebGL2** (fragment), in a tiling React workbench
 with params as sliders, IR/graph/shader views, physical diagnostics, a render queue (PNG, EXR passes, MP4/WebM)
